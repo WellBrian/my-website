@@ -21,3 +21,7 @@ This is a simple website built using HTML and CSS, with a few JavaScript scripts
 - CSS3
 
 - JavaScript (limited usage)
+
+### Live Website
+
+Visit the live version here: [Brian Ouko's Website](https://brian-ouko.netlify.app/)
