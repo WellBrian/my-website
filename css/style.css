@@ -402,6 +402,7 @@ a {
 .about h2 .highlight {
     color: rgb(0, 166, 255);
     margin-left: 9px;
+    margin-right: 9px;
 }
 
 .about-content {
@@ -445,6 +446,11 @@ a {
 
     .about-image {
         display: none;
+    }
+
+    .about h2 {
+        margin-bottom: 30px;
+        margin-top: 60px;
     }
 }
 
