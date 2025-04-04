@@ -1,29 +1,23 @@
-# Introduction to CSS
+# My Website
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+### Overview
 
-## Instructions
+This is a simple website built using HTML and CSS, with a few JavaScript scripts to enhance interactivity. The website serves as an online presence for my portfolio and freelance business
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+### Features
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
+**Responsive Design**: The website adapts to different screen sizes for a seamless user experience.
 
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
+**Minimal JavaScript**: Only a few script tags are used to add interactive elements.
 
-Happy Coding! 💻✨
+**User-Friendly Navigation**: Simple and intuitive layout.
+
+**Styling with CSS**: Aesthetic and modern design achieved with CSS.
+
+### Technologies Used
+
+- HTML5
+
+- CSS3
+
+- JavaScript (limited usage)
