@@ -163,20 +163,33 @@ a {
 }
 
 .info h2 span {
-    position: relative;
+    position: absolute;
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .7px rgb(0, 166, 255);
     animation: display-text 16s linear infinite;
     animation-delay: calc(-4s * var(--i));
-    max-width: 100%;
-    width: auto;
     white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .info h2 {
+        text-align: center; 
+        width: 100%;
+    }
+
+    .info h2 span {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 @keyframes display-text {
     25%, 100% {
-        display: none;
+        opacity: 0;
+    }
+    0%, 24% {
+        opacity: 1;
     }
 }
 
