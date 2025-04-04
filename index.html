@@ -307,19 +307,6 @@
             <span class="copyright">&copy; 2025 All Rights Reserved</span>
         </div>
     </footer>
-
-    <div class="floating-menu" id="floatingMenu">
-        <i class="bx bx-menu" id="menuIcon"></i> 
-        <nav class="floating-nav" id="floatingNav">
-            <ul class="nav-menu">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#journey">JOURNEY</a></li>
-                <li><a href="#latest-projects">MY WORKS</a></li>
-                <li><a href="#contact-section">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>    
     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -398,43 +385,6 @@
                 document.querySelector("form").reset();
             }, 1000);
         });
-
-        document.addEventListener("DOMContentLoaded", function () {
-        const floatingMenu = document.getElementById("floatingMenu");
-        const menuIcon = document.getElementById("menuIcon");
-        const floatingNav = document.getElementById("floatingNav");
-        const homeSection = document.querySelector(".home");
-
-        if (!floatingMenu || !menuIcon || !floatingNav || !homeSection) {
-            console.error("Missing elements: floating menu, menu icon, floatingNav, or home section.");
-            return;
-        }
-
-        // Toggle menu on click
-        menuIcon.addEventListener("click", function () {
-            floatingMenu.classList.toggle("active");
-
-            if (floatingMenu.classList.contains("active")) {
-                floatingNav.style.display = "block";
-                floatingNav.style.maxHeight = "400px"; // Expand fully
-            } else {
-                floatingNav.style.display = "none";
-            }
-        });
-
-        // Hide/show menu when scrolling
-        window.addEventListener("scroll", function () {
-            const homeBottom = homeSection.offsetTop + homeSection.offsetHeight;
-
-            if (window.scrollY >= homeBottom) {
-                floatingMenu.classList.add("show-menu");
-            } else {
-                floatingMenu.classList.remove("show-menu");
-                floatingMenu.classList.remove("active"); 
-                floatingNav.style.display = "none"; 
-            }
-        });
-    });
 
     </script>
 </body>
